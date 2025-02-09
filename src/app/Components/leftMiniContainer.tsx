@@ -9,7 +9,7 @@ const courgette = Courgette({
 })
 const LeftMiniContainer = () => {
     return (
-        <div className='w-1/2 rounded-l-2xl overflow-hidden relative h-full'>
+        <div className='hidden custom-lg:block w-1/2 rounded-l-2xl overflow-hidden relative'>
             <Image src={image} alt="beautiful scenery" className='h-full w-full object-cover' />
             <h1 className={courgette.className}>
                 <span className='absolute top-2 left-[120px] text-white text-2xl'>Ulululu Tours</span>
